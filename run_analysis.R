@@ -79,7 +79,7 @@ rm(group_data, mdat)
 # Label the activities with discriptive names
 
 mean_data$Activity           <- factor(mean_data$Activity)
-levels(mean_data$Activities) <- c("walking", "walking_upstairs", "walking_downstairs", 
+levels(mean_data$Activity) <- c("walking", "walking_upstairs", "walking_downstairs", 
                                  "sitting", "standing", "laying")
 
 # Output the final tidy data into a csv file
